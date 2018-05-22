@@ -13,6 +13,6 @@ Vagrant.configure("2") do |config|
 
 
   # TOMCAT (note, it's routed through HTTPS on NGINX)
-  config.vm.network "forwarded_port", guest: 8081, host: 8081
+  config.vm.network "forwarded_port", guest: 8081, host: 8084
 
 end
